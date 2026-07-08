@@ -30,6 +30,6 @@ class Finch < Formula
   end
 
   test do
-    system "#{bin}/finch", "auth", "status", "--json"
+    system bin/"finch", "auth", "status", "--json"
   end
 end
