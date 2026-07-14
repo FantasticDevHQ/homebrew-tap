@@ -1,26 +1,26 @@
 class Finch < Formula
   desc "Twitter/X CLI for humans and agents"
   homepage "https://github.com/kellykampen/finch"
-  version "0.4.0"
+  version "0.4.1"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/kellykampen/finch/releases/download/v0.4.0/finch-darwin-arm64"
-      sha256 "2005d84b7cf5217f201463b50a2ed8fe5eb5b1d23380c28b324a54e596b272ef"
+      url "https://github.com/kellykampen/finch/releases/download/v0.4.1/finch-darwin-arm64"
+      sha256 "4713a74526a97a00c5997d945e475599a320c0bbb4bdc36182876cdfbcd18c82"
     else
-      url "https://github.com/kellykampen/finch/releases/download/v0.4.0/finch-darwin-x64"
-      sha256 "63a93af525622ba17acc8cb55fd94de5244e7fc8449f064b8b3f29549dc7c180"
+      url "https://github.com/kellykampen/finch/releases/download/v0.4.1/finch-darwin-x64"
+      sha256 "3c3c2a510d3ae250a0b3239ec858ee79276d7564e7b2e57a9a751f92b7cb0490"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/kellykampen/finch/releases/download/v0.4.0/finch-linux-arm64"
-      sha256 "f176ce39901bd44e75e6e73de1ca3e7f4362a65f488758f76a29cf802ce7b394"
+      url "https://github.com/kellykampen/finch/releases/download/v0.4.1/finch-linux-arm64"
+      sha256 "a77e52b5bf3dfcffdd78b849f59f4ba91737f1e26895f5653d0a6abf4634135c"
     else
-      url "https://github.com/kellykampen/finch/releases/download/v0.4.0/finch-linux-x64"
-      sha256 "a470f1f9827a2841c902244db44b8b1d9371fa757134dbe6b085a9b55733b601"
+      url "https://github.com/kellykampen/finch/releases/download/v0.4.1/finch-linux-x64"
+      sha256 "2426860606471fe1cfe7331f5d9146573b5af4fbead4b5abb51ead11f5e570cd"
     end
   end
 
