@@ -16,6 +16,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/FantasticDevHQ/homebrew-tap/actions/workflows/check.yml"><img src="https://img.shields.io/github/actions/workflow/status/FantasticDevHQ/homebrew-tap/check.yml?branch=main&amp;style=flat-square&amp;label=checks" alt="Formula checks on main" /></a>
   <a href="https://github.com/FantasticDevHQ/homebrew-tap/stargazers"><img src="https://img.shields.io/github/stars/FantasticDevHQ/homebrew-tap?style=flat-square" alt="GitHub stars" /></a>
 </p>
 
@@ -30,3 +31,7 @@ Install with:
 ```bash
 brew install fantasticdevhq/tap/finch
 ```
+
+## Checks
+
+GitHub Actions schedules formula syntax and whitespace checks on UbiCloud Linux using `ubicloud-standard-2-ubuntu-2404`. Run `ruby -c Formula/finch.rb` locally. These checks validate Ruby syntax; they do not install or audit bottles on macOS.
